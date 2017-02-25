@@ -1,21 +1,174 @@
+
 <!DOCTYPE html>
 <html>
-	<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-		<title> My Bitcoin Page </title>
-	</head>
-	<body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Julien Conzano || Explorateur Bitcoin</title>
+    </head>
     
-		<h1>Bienvenue sur ma page Bitcoin</h1>
-      
-		<p>Bonjour. Pour plus d'information sur le Bitcoin, renseignez vous ici : <a href="https://fr.wikipedia.org/wiki/Bitcoin">Bitcoin Wikipedia</a> ?<br /></p>
-		<p>Sinon, je vous conseille ceci pour les plus interessés : <a href="http://mubiz.com/developers/bitcoin/">Mubiz</a> ?<br /></p>
-		
-    		<p> Retour sur la page d'accueil : <a href="https://julienconzano13.github.io/">Accueil</a> ?<br /></p>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../custom.js"></script>
-	</body>
+    <body>
+    <script type="text/javascript" src="julienconzano.giyhub.io/js/bitcoin.js" defer></script>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <h1>Julien CONZANO</h1>    
+                    </div>
+                    <h2>Voici ma toute première page réalisée avec Github. Cette dernière est simplement à vocation informative à mon sujet et, dans le cadre d'un travail, sur celui du Bitcoin.</h2>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="https://julienconzano13.github.io/index.html">Accueil</a></li>
+                        <li><a href="https://julienconzano13.github.io/cv/index.html">CV</a></li>
+                        <li><a href="https://julien.conzano13.github.io/contactme/index.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div id="banniere_image">
+                <div id="banniere_description">
+                    Voici quelques informaion sur le Bitcoin :
+                    <a href="https://fr.wikipedia.org/wiki/Bitcoin/" class="bouton_rouge">Lien Wiki</a>
+                </div>
+            </div>
+            
+            
+        <section>
+        <h1><img src="images/ico_epingle.png" alt="Champ principal" class="ico_categorie" />Informations Utiles ?</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-yellow">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_block_number"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_network_hash"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-red">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_blocks"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-green">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-money fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_usd_price"></span>
+									</h2>
+									<div>Valeur Bitcoin </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+            
+            
+            <section>
+                <article>
+                    <h1><img src="images/ico_epingle.png" alt="Champ principal" class="ico_categorie" />On a dit Bitcoin ?</h1>
+                    
+                    <p>Par la suite, notre intervenant Albin Cauderlin nous a expliqué lors de cette même première séance le principe de la <strong>Blockchain</strong> et de l'interêt du <em>Bitcoin</em>. En effet, la sécurité de ce dernier apparait comme le plus grand interêt mais c'est surtout pour la surprise que nous avons tous eu lorsqu'il a annoncé que l'on pouvait faire de l'argent à partir d'un ordinateur, que nous avons tous était saisis. En effet, avec une grande puissance de calcul, du matériel et de la main d'oeuvre, il est possible de miner, i.e de se proposer en temps que block de la <strong>Blockchain</strong> et ainsi de devenir le block qui partagera l'opération en dernier et d'obtenir des <em>Bitcoin</em>. La valeur de ce dernier est visible sur le lien suivant.
+                     </p>
+                    
+                    <p>Après cette approche assez sommaire de l'interêt d'étudier le <em>Bitcoin</em>, peut-être seriez-vous intéressés par plus d'informations. Mubiz, est une start-up créée par l'intervenant à l'ESILV qui nous a présenté la <strong>Blockchain</strong>. Ce dernier a un site ou vous trouverez des informations bien plus poussées. Je vous donne le lien ce-après :
+                    </p>
+                        
+                    <p>Vous pouvez vous renseigner sur la <strong>Blockchain</strong> à partir du site suivant :</p>
+                    <p><a href="https://block.io/docs/basic"><img src="images/blockchain2.png" alt="Blockchain2" /></a></p>
+                    
+                    <p>Pour toute informations, questions ou autre, n'hésitez pas à me contacter en effectuant un clic sur le lien en haut à droite de la page.</p>
+                </article>
+                
+                <aside>
+                    <h1>À propos de l'auteur </h1>
+                    <img src="images/bulle.png" alt="" id="fleche_bulle" />
+                    <p id="photo_zozor"><img src="images/moi.jpg" alt="Ma photo" /></p>
+                    <p>Je m'appelle Julien Conzano, et je suis étudiant acteullement étudiant à l'ESILV, en 3ème année d'école d'ingénieur.</p>
+                    <p>J'ai décidé grâce à l'électif Ingénieurie Financière proposé par mon école, de créer ce site.</p>
+                     <p><a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>      
+                           <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>       
+                           <a href="https://vimeo.com"><img src="images/vimeo.png" alt="Vimeo"></a>
+                           <a href="https://imaginecup.com"><img src="images/imaginecup.png" alt="IC"></a></p>
+                </aside>
+            </section>
+            
+            <footer>
+                <div id="tweet">
+                    <h1>Citation et dernière MAJ </h1>
+                    <p><em> ''On ne juge pas un poisson à sa capacité à grimper aux arbres''</em></p>
+                    <p><a href="https://fr.wikipedia.org/wiki/Albert_Einstein"><em>Albert.E</em></a></p>
+                    <p>Le 12 Févirer 2017 à 18h</p>
+                </div>
+                
+                <div id="mes_photos">
+                    <h1><a href="https://fr.wikipedia.org/wiki/Paris">Paris, FRANCE</a></h1>
+                    <p><img src="images/drapeau.png" alt="Drapeau de la France" /></p>
+                </div>
+                
+                <div id="mes_amis">
+                    <h1>Liens utiles et Amis </h1>
+                    <div id="listes_amis">
+                        <ul>
+                            <li><a href="http://esilv.fr">ESILV</a></li>
+                            <li><a href="https://google.fr">Google</a></li>
+                            <li><a href="https://emmanuelcoste.github.io/index.html">Emmanuel Coste</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+    </body>
 </html>
 
